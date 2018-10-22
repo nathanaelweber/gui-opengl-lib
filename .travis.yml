@@ -3,4 +3,6 @@ language: java
 jdk:
   - oraclejdk8
 
+before_script: cd base
+
 script: ant build
